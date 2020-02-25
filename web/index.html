@@ -1,0 +1,115 @@
+<!--
+	QQ用户黄页
+-->
+
+<html>
+    <head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<style type = "text/css">
+			#main-content{
+				position: relative;
+				left: 10%;
+				width: 90%;
+				background-color: #ddd;
+			}
+			.line{
+				display: flex;
+				justify-content: center;
+			}
+			.box{
+				background-color: #eee;
+				flex-grow: 1;
+				margin: 0.7% 1.4% 0.7% 1.4%;
+				padding: 0.5%;
+				cursor: pointer;
+			}
+			.box:hover{
+				background-color: #bbb;
+			}
+			.head{
+				margin: 0.5%;
+				width: 100px;
+				float: left;
+			}
+			.binf{
+				margin: 2%;
+				line-height: 160%;
+			}
+			#sqlcmd{
+				width: 50%;
+				height: 70%;
+				margin: 0.3% 25% 0.3% 25%;
+			}
+			#sqlbtn{
+				width: 10%;
+				height: 20%;
+				margin: 0.3% 45% 0.3% 45%;
+			}
+			#nav{
+				padding: 1%;
+				margin: 0.5%;
+				position: fixed;
+				width: 7%;
+				top: 0px;
+				left: 0px;
+				background-color: #ccd;
+			}
+			.bigf{
+				font-size: 25px;
+				margin: 0px;
+			}
+			.tbigf{
+				width: 90%;
+				font-size: 25px;
+				margin: 5px;
+				background-color: #ddd;
+			}
+			#smbtn{
+				margin-top: 20px;
+				font-size: 25px;
+				background-color: #ddd;
+				width: 100%;
+			}
+			#info{
+				font-size: 25px;
+			}
+		</style>
+		<script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+		<script src="nav.js"></script>
+    </head>
+	<body style="background-color: #ddd;">
+		<div id = 'nav'>
+			<form action="/sql" id = 'sqlform' class = 'bigf'>
+				<div>
+					省份:<br>
+					<input type="text" name="province" value="广东" class = 'tbigf'>
+					<br>
+				</div>
+				<div>
+					城市:<br>
+					<input type="text" name="city" value="" class = 'tbigf'>
+					<br>
+				</div>
+				<div>
+					年龄:<br>
+					<input type="text" name="age" value="< 18" class = 'tbigf'>
+					<br>
+				</div>
+				<div>
+					群号:<br>
+					<input type="text" name="gid" value="" class = 'tbigf'>
+				</div>
+				<div>
+					筛选等级:<br>
+					<input type="text" name="deg" value="2" class = 'tbigf'>
+				</div>
+			</form> 
+			<button id = 'smbtn'> submit </button>
+			<div id = 'info'>
+			</div>
+		</div>
+		<div id = 'main-content'>
+			
+		</div>
+    </body>
+</html>
