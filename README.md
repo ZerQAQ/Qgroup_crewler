@@ -1,4 +1,4 @@
-## [开发中]qgroup_crawler (QQ群爪巴虫)
+# [开发中]qgroup_crawler (QQ群爪巴虫)
 
 ![](https://i.loli.net/2019/11/27/3Y7TBWXwzhrbGum.jpg)
 
@@ -6,7 +6,7 @@
 
 目前功能主要为爬取QQ用户的群、群员以及用户资料。
 
-### 运行环境
+# 运行环境
 
 python3
 
@@ -95,9 +95,9 @@ users_nl: --（用于缓存未加载的用户用户）
 +-------+--------+------+-----+---------+-------+
 ```
 
-### 用法
+# 用法
 
-#### m.py
+## m.py
 
 将用于抓取用户信息的cookie放在ucookie/下，命名格式为cookie0, cookie1...
 
@@ -116,7 +116,7 @@ users_nl: --（用于缓存未加载的用户用户）
 
 程序会在根目录下创建data和log来保存数据和日志。
 
-#### Qqun.py
+## Qqun.py
 
 通过传入cookies创建一个Qqun对象，调用get_group_list()可以获得一个list，其中包含若干个Group对象。
 
