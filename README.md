@@ -1,4 +1,4 @@
-# qgroup_crawler (QQ群爪巴虫)
+# qgroup_crawler (QQ群爬虫)
 
 ![](https://i.loli.net/2019/11/27/3Y7TBWXwzhrbGum.jpg)
 
