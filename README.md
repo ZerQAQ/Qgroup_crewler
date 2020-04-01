@@ -1,8 +1,6 @@
-# [开发中]qgroup_crawler (QQ群爪巴虫)
+# qgroup_crawler (QQ群爪巴虫)
 
 ![](https://i.loli.net/2019/11/27/3Y7TBWXwzhrbGum.jpg)
-
-本项目正在开发中。
 
 目前功能主要为爬取QQ用户的群、群员以及用户资料。
 
